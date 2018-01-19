@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HSTAT Courses</title>
+  <style type="text/css">
+  
+    body {
+        background-size:cover;
+        background:linear-gradient(to left top, #fff1eb 0%, #ace0f9 100%) fixed;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 2px 2px;
+    }
+    
+    .eng, .math, .physics, .chem, .bio, .sep, .lote ,.gym, .history, .music, .art, .qol, .health, .wei {
+        width:200px;
+        height: 200px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        display:inline-block;
+        transition: width 2s ease 0s;
+        padding:30px;
+        border-radius: 15px;
+    }
+    
+    .eng, .history, .physics, .sep, .lote, .art, .wei {
+        animation: course1 3s ease-in-out 0s 1;
+        -webkit-animation:course1 3s ease-in-out 0s 1 normal;
+    }
+    
+    .math, .chem, .bio, .qol, .music, .gym {
+         animation: course 3s ease-in-out 0s 1;
+        -webkit-animation:course2 3s ease-in-out 0s 1 normal;
+        
+    }
+    
+    .wei {
+        font-size: px;
+        color: lightblue;
+    }
+    
+    
+    @keyframes course1 {
+        0% {opacity: 0;}
+        33% {opacity: 1;}
+        66% {opacity :0;}
+        100% {opacity: 1}
+    }
+    @-webkit-keyframes course1 {
+        0% {opacity: 0;}
+        33% {opacity: 1;}
+        66% {opacity: 0;}
+        100% {opacity: 1}
+    }
+    
+     @keyframes course2 {
+        0% {opacity: 0;}
+        33% {opacity: 0;}
+        66% {opacity :1;}
+        100% {opacity: 1}
+    }
+    @-webkit-keyframes course2 {
+        0% {opacity: 0;}
+        33% {opacity: 0;}
+        66% {opacity :1;}
+        100% {opacity: 1}
+    }
+    
+    
+    
+    div:hover {
+        width: 250px;
+    }
+    
+    div:focus {
+        transform: rotateY(130deg);
+    }
+    
+    
+    /*.container {*/
+        /*text-align:center;*/
+        /*height: 30px;*/
+    
+  </style>
+  </head>
+  <body>
+    <h1> HSTAT Courses</h1>
+    
+    <div class="eng">
+        <a href="http://www.hstat.org/software-engineering-program/"><a href="http://.com"><img src="images/eng.jpg" alt="English" style="width:100%">
+    </div>
+    
+    <div class="math">
+        <a href="http://www.hstat.org/software-engineering-program/"><img src="images/math.jpg" alt="Math" style="width:100%">
+    </div>
+    
+    <div class="history">
+        <a href="http://www.hstat.org/software-engineering-program/"><img src="images/history.png" alt="history" style="width:100%">
+    </div>
+  
+    <div class="chem">
+        <a href="http://www.hstat.org/software-engineering-program/"><img src="images/chem.png" alt="Chemistry" style="width:100%">
+    </div>
+    
+    <div class="physics">
+        <a href="http://www.hstat.org/software-engineering-program/"><img src="images/physics.jpg" alt="Physics" style="width:100%">
+    </div>
+    
+    <div class="bio">
+        <a href="http://www.hstat.org/software-engineering-program/"><img src="images/bio.png" alt="Biology" style="width:100%">
+    </div>
+        
+    <div class="sep">
+        <a href="http://www.hstat.org/software-engineering-program/"><img src="images/sep.png" alt="SEP" style="width:100%">
+    </div>
+    
+    <div class="qol">
+        <a href="http://www.hstat.org/software-engineering-program/"><img src="images/qol.png" alt="QOL" style="width:100%">
+    </div>
+    
+    <div class="lote">
+        <a href="http://www.hstat.org/software-engineering-program/"><img src="images/lote.png" alt="LOTE" style="width:100%">
+    </div>
+    
+    <div class="music">
+        <a href="http://www.hstat.org/software-engineering-program/"><img src="images/music.png" alt="Music" style="width:100%">
+    </div>
+    
+    <div class="art">
+        <a href="http://www.hstat.org/academics-2/art/"><img src="images/art.png" alt="Art" style="width:100%">
+    </div>
+    
+    <div class="gym">
+        <a href="http://www.hstat.org/software-engineering-program/"><img src="images/gym.png" alt="Gym" style="width:100%">
+    </div>
+    
+    <!--<div class="wei">By Wei Zheng <br> SEP11 <br> 01/18/2018</div>-->
+        
+    </div>
+    
+    
+    </div>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HSTAT Courses</title>
+  <style type="text/css">
+  
+    body { /*garident-color background*/
+        background-size:cover;
+        background:linear-gradient(to left top, #fff1eb, #ace0f9) fixed;
+        background-repeat: no-repeat;
+    }
+    
+    h1 { /*shadow of mid-dark-blue on black text*/
+        font-size: 5vw;
+        text-align: center;
+        text-shadow: 4px 4px #558ABB;
+    }
+    /*set all boxes with 0.8 opacity final look*/
+    .eng, .math, .physics, .chem, .bio, .sep, .lote ,.gym, .history, .music, .art, .qol, .health {
+        width:200px;
+        box-shadow: 0 4px 8px 0 #C0C0C0, 0 6px 20px 0 #BEBEBE;
+        text-align: center;
+        display:inline-block;
+        transition: width 2s ease 0s;
+        padding:30px;
+        border-radius: 15px;
+        transform: translate(8%, 0);
+        opacity: 0.8;
+    }
+    /*separate ajacent boxes to have one-in and one-out effect*/
+    .eng, .history, .physics, .sep, .lote, .art {
+        animation: course1 3s ease-in-out 0s 1;
+        -webkit-animation:course1 3s ease-in-out 0s 1 normal;
+    }
+    
+    .math, .chem, .bio, .qol, .music, .gym {
+         animation: course 3s ease-in-out 0s 1;
+        -webkit-animation:course2 3s ease-in-out 0s 1 normal;
+        
+    }
+    
+    @keyframes course1 {
+        0% {opacity: 0;}
+        33% {opacity: 0.65;}
+        66% {opacity :0;}
+        100% {opacity: 0.65;}
+    }
+    @-webkit-keyframes course1 {
+        0% {opacity: 0;}
+        33% {opacity: 0.65;}
+        66% {opacity: 0;}
+        100% {opacity: 0.65;}
+    }
+    
+    @keyframes course2 {
+        0% {opacity: 0;}
+        33% {opacity: 0;}
+        66% {opacity: 0.65;}
+        100% {opacity: 0.65;}
+    }
+    @-webkit-keyframes course2 {
+        0% {opacity: 0;}
+        33% {opacity: 0;}
+        66% {opacity: 0.65;}
+        100% {opacity: 0.65;}
+    }
+    
+    /*intensify the clarity of box and enlarge the box when hover*/
+    div:hover {
+        width: 250px;
+        opacity: 1;
+    }
+    
+    
+    
+  </style>
+  </head>
+  <body>
+    <h1> HSTAT Courses</h1>
+    <!--image credit: janj93 in pixabay (https://pixabay.com/en/users/janjf93-3084263/)--> 
+    <!--image credit: ProSmile in pixabay (https://pixabay.com/en/users/ProSmile-3307648/)-->
+    <!--all boxes with img link to hstat website-->
+    <div class="eng">
+        <a href="http://www.hstat.org/academics-2/english/"><a href="http://.com"><img src="images/eng.jpg" alt="English" style="width:100%">
+    </div>
+
+    <div class="math">
+        <a href="http://www.hstat.org/academics-2/math/"><img src="images/math.jpg" alt="Math" style="width:100%">
+    </div>
+    
+    <div class="history">
+        <a href="http://www.hstat.org/academics-2/social-studies/"><img src="images/history.png" alt="history" style="width:100%">
+    </div>
+  
+    <div class="chem">
+        <a href="http://www.hstat.org/academics-2/science/"><img src="images/chem.png" alt="Chemistry" style="width:100%">
+    </div>
+    
+    <div class="physics">
+        <a href="http://www.hstat.org/academics-2/science/"><img src="images/physics.jpg" alt="Physics" style="width:100%">
+    </div>
+    
+    <div class="bio">
+        <a href="http://www.hstat.org/academics-2/science/"><img src="images/bio.png" alt="Biology" style="width:100%">
+    </div>
+        
+    <div class="sep">
+        <a href="http://www.hstat.org/software-engineering-program/"><img src="images/sep.png" alt="SEP" style="width:100%">
+    </div>
+    
+    <div class="qol">
+        <a href="http://www.hstat.org/software-engineering-program/"><img src="images/qol.png" alt="QOL" style="width:100%">
+    </div>
+    
+    <div class="lote">
+        <a href="http://www.hstat.org/academics-2/lote/"><img src="images/lote.png" alt="LOTE" style="width:100%">
+    </div>
+    
+    <div class="music">
+        <a href="http://www.hstat.org/academics-2/music/"><img src="images/music.png" alt="Music" style="width:100%">
+    </div>
+    
+    <div class="art">
+        <a href="http://www.hstat.org/academics-2/art/"><img src="images/art.png" alt="Art" style="width:100%">
+    </div>
+    
+    <div class="gym">
+        <a href="http://www.hstat.org/academics-2/physical-education/"><img src="images/gym.png" alt="Gym" style="width:100%">
+    </div>
+    
+    
+    
+    </div>
+  </body>
+</html>
